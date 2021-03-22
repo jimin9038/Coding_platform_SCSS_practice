@@ -1,0 +1,170 @@
+$backgroundColor : #1f2d41;
+
+@mixin divider ($dividerColor, $dividerBackgroundColor){
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .dividerLine{
+        width: 100%;
+        max-width: 7rem;
+        height: 0.25rem;
+        background-color: $dividerColor;
+        border-radius: 1rem;
+        border-color:$dividerBackgroundColor !important;
+    }
+}
+.header {
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+    background-color: $backgroundColor !important;
+    color: #FFFFFF !important;
+    text-align: center !important;
+    .flex {
+        min-width: 992px !important;
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: column !important;
+    }
+    .img {
+        width: 15rem;
+        margin-bottom: 3rem !important;
+    }
+    .h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+        margin-bottom: 0 !important;
+    }
+    .divider{
+        @include divider(#FFFFFF, #000000);
+    }
+    .shortIntroduce {
+        white-space: pre-wrap;
+        font-size: 1.25rem;
+        font-weight: 300 !important;
+        margin-bottom: 0 !important;
+    }
+}
+.portfolio {
+    padding: 6rem 0;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #00cfd5;
+    .container{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        .text-center{
+            text-align: center !important;
+            .h2{
+                font-size: 2.25rem;
+                line-height: 2rem;
+                color: #00cfd5 !important;
+                margin-bottom: 0 !important;
+                display: inline-block !important;
+            }
+        }
+        .divider{
+            @include divider(#00cfd5, #000000);
+        }
+    }
+}
+
+.about {
+    padding: 6rem 0;
+    background-color: $backgroundColor !important;
+    color: #fff !important;
+    margin-bottom: 0 !important;
+    .container {
+        min-width: 992px !important;
+        .text-center {
+            text-align: center !important;
+            .h2 {
+                font-size: 2.25rem;
+                line-height: 2rem;
+                display: inline-block !important;
+                color: #fff !important;
+            }
+        }
+        .divider{
+            @include divider(#FFFFFF, #000000);
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -1.5rem;
+            margin-left: -1.5rem;
+            .col-lg-4{
+                position: relative;
+                width: 100%;
+                padding-right: 1.5rem;
+                padding-left: 1.5rem;
+                flex: 0 0 33.3333333333%;
+                max-width: 33.3333333333%;
+                .longIntroduce{
+                    white-space: pre-wrap;
+                    font-size: 1.25rem;
+                    font-weight: 300;
+                }
+            }
+            .ml-auto{
+                margin-left: auto !important;
+            }
+            .mr-auto{
+                margin-right: auto !important;
+            }
+        }
+        
+    }
+}
+.contact{
+    padding: 6rem 0;
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        
+        .text-center {
+            text-align: center !important;
+            .h2 {
+                font-size: 2.25rem;
+                line-height: 2rem;
+                display: inline-block !important;
+                color: #00cfd5 !important;
+            }
+        }
+        .divider{
+            @include divider(#00cfd5, #FFFFFF);
+            color: #00cfd5 !important;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -1.5rem;
+            margin-left: -1.5rem;
+            justify-content: center !important;
+
+            .col-lg-4{
+                position: relative;
+                width: 100%;
+                padding-right: 1.5rem;
+                padding-left: 1.5rem;
+                flex: 0 0 33.3333333333%;
+                max-width: 33.3333333333%;
+                .flex {
+                    display: flex !important;
+                    flex-direction: column !important;
+                    align-items: center !important;
+                    .text-muted {
+                        color: #6c757d !important;
+                    }
+                    .lead {
+                        font-size: 1.25rem;
+                        font-weight: 700 !important;
+                    }
+                }
+            }
+        }
+      }
+}

@@ -1,0 +1,282 @@
+.header {
+  padding-top: calc(6rem + 74px);
+  padding-bottom: 6rem;
+  background-color: #1f2d41 !important;
+  color: #FFFFFF !important;
+  text-align: center !important;
+}
+
+.header .flex {
+  min-width: 992px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+
+.header .img {
+  width: 15rem;
+  margin-bottom: 3rem !important;
+}
+
+.header .h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  margin-bottom: 0 !important;
+}
+
+.header .divider {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .divider .dividerLine {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  border-color: #000000 !important;
+}
+
+.header .shortIntroduce {
+  white-space: pre-wrap;
+  font-size: 1.25rem;
+  font-weight: 300 !important;
+  margin-bottom: 0 !important;
+}
+
+.portfolio {
+  padding: 6rem 0;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #00cfd5;
+}
+
+.portfolio .container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.portfolio .container .text-center {
+  text-align: center !important;
+}
+
+.portfolio .container .text-center .h2 {
+  font-size: 2.25rem;
+  line-height: 2rem;
+  color: #00cfd5 !important;
+  margin-bottom: 0 !important;
+  display: inline-block !important;
+}
+
+.portfolio .container .divider {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.portfolio .container .divider .dividerLine {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #00cfd5;
+  border-radius: 1rem;
+  border-color: #000000 !important;
+}
+
+.about {
+  padding: 6rem 0;
+  background-color: #1f2d41 !important;
+  color: #fff !important;
+  margin-bottom: 0 !important;
+}
+
+.about .container {
+  min-width: 992px !important;
+}
+
+.about .container .text-center {
+  text-align: center !important;
+}
+
+.about .container .text-center .h2 {
+  font-size: 2.25rem;
+  line-height: 2rem;
+  display: inline-block !important;
+  color: #fff !important;
+}
+
+.about .container .divider {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .container .divider .dividerLine {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  border-color: #000000 !important;
+}
+
+.about .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -1.5rem;
+  margin-left: -1.5rem;
+}
+
+.about .container .row .col-lg-4 {
+  position: relative;
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.3333333333%;
+          flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+
+.about .container .row .col-lg-4 .longIntroduce {
+  white-space: pre-wrap;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.about .container .row .ml-auto {
+  margin-left: auto !important;
+}
+
+.about .container .row .mr-auto {
+  margin-right: auto !important;
+}
+
+.contact {
+  padding: 6rem 0;
+}
+
+.contact .container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact .container .text-center {
+  text-align: center !important;
+}
+
+.contact .container .text-center .h2 {
+  font-size: 2.25rem;
+  line-height: 2rem;
+  display: inline-block !important;
+  color: #00cfd5 !important;
+}
+
+.contact .container .divider {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #00cfd5 !important;
+}
+
+.contact .container .divider .dividerLine {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #00cfd5;
+  border-radius: 1rem;
+  border-color: #FFFFFF !important;
+}
+
+.contact .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -1.5rem;
+  margin-left: -1.5rem;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.contact .container .row .col-lg-4 {
+  position: relative;
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.3333333333%;
+          flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+
+.contact .container .row .col-lg-4 .flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.contact .container .row .col-lg-4 .flex .text-muted {
+  color: #6c757d !important;
+}
+
+.contact .container .row .col-lg-4 .flex .lead {
+  font-size: 1.25rem;
+  font-weight: 700 !important;
+}
+/*# sourceMappingURL=style.css.map */
