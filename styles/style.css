@@ -6,7 +6,7 @@
   text-align: center !important;
 }
 
-.header .flex {
+.header .header__container {
   min-width: 992px !important;
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -20,18 +20,18 @@
           flex-direction: column !important;
 }
 
-.header .img {
+.header .header__container .header__container__img {
   width: 15rem;
   margin-bottom: 3rem !important;
 }
 
-.header .h1 {
+.header .header__container .header__container__h1 {
   font-size: 4rem;
   line-height: 4rem;
   margin-bottom: 0 !important;
 }
 
-.header .divider {
+.header .header__container .header__container__divider {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
   display: -webkit-box;
@@ -45,7 +45,7 @@
           align-items: center;
 }
 
-.header .divider .dividerLine {
+.header .header__container .header__container__divider .dividerLine {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
@@ -54,7 +54,7 @@
   border-color: #000000 !important;
 }
 
-.header .shortIntroduce {
+.header .header__container .header__container__shortIntroduce {
   white-space: pre-wrap;
   font-size: 1.25rem;
   font-weight: 300 !important;
@@ -68,17 +68,17 @@
   color: #00cfd5;
 }
 
-.portfolio .container {
+.portfolio .portfolio__container {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
 
-.portfolio .container .text-center {
+.portfolio .portfolio__container .portfolio__container__text-center {
   text-align: center !important;
 }
 
-.portfolio .container .text-center .h2 {
+.portfolio .portfolio__container .portfolio__container__text-center .portfolio__container__text-center__h2 {
   font-size: 2.25rem;
   line-height: 2rem;
   color: #00cfd5 !important;
@@ -86,7 +86,7 @@
   display: inline-block !important;
 }
 
-.portfolio .container .divider {
+.portfolio .portfolio__container .portfolio__container__divider {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
   display: -webkit-box;
@@ -100,7 +100,7 @@
           align-items: center;
 }
 
-.portfolio .container .divider .dividerLine {
+.portfolio .portfolio__container .portfolio__container__divider .dividerLine {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
@@ -116,22 +116,22 @@
   margin-bottom: 0 !important;
 }
 
-.about .container {
+.about .about__container {
   min-width: 992px !important;
 }
 
-.about .container .text-center {
+.about .about__container .about__container__text-center {
   text-align: center !important;
 }
 
-.about .container .text-center .h2 {
+.about .about__container .about__container__text-center .about__container__text-center__h2 {
   font-size: 2.25rem;
   line-height: 2rem;
   display: inline-block !important;
   color: #fff !important;
 }
 
-.about .container .divider {
+.about .about__container .about__container__divider {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
   display: -webkit-box;
@@ -145,7 +145,7 @@
           align-items: center;
 }
 
-.about .container .divider .dividerLine {
+.about .about__container .about__container__divider .dividerLine {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
@@ -154,7 +154,7 @@
   border-color: #000000 !important;
 }
 
-.about .container .row {
+.about .about__container .about__container__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,7 +164,7 @@
   margin-left: -1.5rem;
 }
 
-.about .container .row .col-lg-4 {
+.about .about__container .about__container__row .about__container__row__col-lg-4 {
   position: relative;
   width: 100%;
   padding-right: 1.5rem;
@@ -175,17 +175,17 @@
   max-width: 33.3333333333%;
 }
 
-.about .container .row .col-lg-4 .longIntroduce {
+.about .about__container .about__container__row .about__container__row__col-lg-4 .about__container__row__col-lg-4__longIntroduce {
   white-space: pre-wrap;
   font-size: 1.25rem;
   font-weight: 300;
 }
 
-.about .container .row .ml-auto {
+.about .about__container .about__container__row .about__container__row__ml-auto {
   margin-left: auto !important;
 }
 
-.about .container .row .mr-auto {
+.about .about__container .about__container__row .about__container__row__mr-auto {
   margin-right: auto !important;
 }
 
@@ -193,24 +193,24 @@
   padding: 6rem 0;
 }
 
-.contact .container {
+.contact .contact__container {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
 
-.contact .container .text-center {
+.contact .contact__container .contact__container__text-center {
   text-align: center !important;
 }
 
-.contact .container .text-center .h2 {
+.contact .contact__container .contact__container__text-center .contact__container__text-center__h2 {
   font-size: 2.25rem;
   line-height: 2rem;
   display: inline-block !important;
   color: #00cfd5 !important;
 }
 
-.contact .container .divider {
+.contact .contact__container .contact__container__divider {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
   display: -webkit-box;
@@ -225,7 +225,7 @@
   color: #00cfd5 !important;
 }
 
-.contact .container .divider .dividerLine {
+.contact .contact__container .contact__container__divider .dividerLine {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
@@ -234,7 +234,7 @@
   border-color: #FFFFFF !important;
 }
 
-.contact .container .row {
+.contact .contact__container .contact__container__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -247,7 +247,7 @@
           justify-content: center !important;
 }
 
-.contact .container .row .col-lg-4 {
+.contact .contact__container .contact__container__row .contact__container__row__col-lg-4 {
   position: relative;
   width: 100%;
   padding-right: 1.5rem;
@@ -258,7 +258,7 @@
   max-width: 33.3333333333%;
 }
 
-.contact .container .row .col-lg-4 .flex {
+.contact .contact__container .contact__container__row .contact__container__row__col-lg-4 .contact__container__row__col-lg-4__flex {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
@@ -271,11 +271,11 @@
           align-items: center !important;
 }
 
-.contact .container .row .col-lg-4 .flex .text-muted {
+.contact .contact__container .contact__container__row .contact__container__row__col-lg-4 .contact__container__row__col-lg-4__flex .contact__container__row__col-lg-4__flex__text-muted {
   color: #6c757d !important;
 }
 
-.contact .container .row .col-lg-4 .flex .lead {
+.contact .contact__container .contact__container__row .contact__container__row__col-lg-4 .contact__container__row__col-lg-4__flex .contact__container__row__col-lg-4__flex__lead {
   font-size: 1.25rem;
   font-weight: 700 !important;
 }

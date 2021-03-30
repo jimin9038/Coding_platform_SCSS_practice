@@ -21,43 +21,44 @@ $backgroundColor : #1f2d41;
     background-color: $backgroundColor !important;
     color: #FFFFFF !important;
     text-align: center !important;
-    .flex {
+    .header__container {
         min-width: 992px !important;
         display: flex !important;
         align-items: center !important;
         flex-direction: column !important;
+        .header__container__img {
+            width: 15rem;
+            margin-bottom: 3rem !important;
+        }
+        .header__container__h1 {
+            font-size: 4rem;
+            line-height: 4rem;
+            margin-bottom: 0 !important;
+        }
+        .header__container__divider{
+            @include divider(#FFFFFF, #000000);
+        }
+        .header__container__shortIntroduce {
+            white-space: pre-wrap;
+            font-size: 1.25rem;
+            font-weight: 300 !important;
+            margin-bottom: 0 !important;
+        }
     }
-    .img {
-        width: 15rem;
-        margin-bottom: 3rem !important;
-    }
-    .h1 {
-        font-size: 4rem;
-        line-height: 4rem;
-        margin-bottom: 0 !important;
-    }
-    .divider{
-        @include divider(#FFFFFF, #000000);
-    }
-    .shortIntroduce {
-        white-space: pre-wrap;
-        font-size: 1.25rem;
-        font-weight: 300 !important;
-        margin-bottom: 0 !important;
-    }
+    
 }
 .portfolio {
     padding: 6rem 0;
     font-size: 1rem;
     line-height: 2rem;
     color: #00cfd5;
-    .container{
+    .portfolio__container{
         width: 100%;
         margin-right: auto;
         margin-left: auto;
-        .text-center{
+        .portfolio__container__text-center{
             text-align: center !important;
-            .h2{
+            .portfolio__container__text-center__h2{
                 font-size: 2.25rem;
                 line-height: 2rem;
                 color: #00cfd5 !important;
@@ -65,7 +66,7 @@ $backgroundColor : #1f2d41;
                 display: inline-block !important;
             }
         }
-        .divider{
+        .portfolio__container__divider{
             @include divider(#00cfd5, #000000);
         }
     }
@@ -76,42 +77,42 @@ $backgroundColor : #1f2d41;
     background-color: $backgroundColor !important;
     color: #fff !important;
     margin-bottom: 0 !important;
-    .container {
+    .about__container {
         min-width: 992px !important;
-        .text-center {
+        .about__container__text-center {
             text-align: center !important;
-            .h2 {
+            .about__container__text-center__h2 {
                 font-size: 2.25rem;
                 line-height: 2rem;
                 display: inline-block !important;
                 color: #fff !important;
             }
         }
-        .divider{
+        .about__container__divider{
             @include divider(#FFFFFF, #000000);
         }
-        .row {
+        .about__container__row {
             display: flex;
             flex-wrap: wrap;
             margin-right: -1.5rem;
             margin-left: -1.5rem;
-            .col-lg-4{
+            .about__container__row__col-lg-4{
                 position: relative;
                 width: 100%;
                 padding-right: 1.5rem;
                 padding-left: 1.5rem;
                 flex: 0 0 33.3333333333%;
                 max-width: 33.3333333333%;
-                .longIntroduce{
+                .about__container__row__col-lg-4__longIntroduce{
                     white-space: pre-wrap;
                     font-size: 1.25rem;
                     font-weight: 300;
                 }
             }
-            .ml-auto{
+            .about__container__row__ml-auto{
                 margin-left: auto !important;
             }
-            .mr-auto{
+            .about__container__row__mr-auto{
                 margin-right: auto !important;
             }
         }
@@ -120,46 +121,46 @@ $backgroundColor : #1f2d41;
 }
 .contact{
     padding: 6rem 0;
-    .container {
+    .contact__container {
         width: 100%;
         margin-right: auto;
         margin-left: auto;
         
-        .text-center {
+        .contact__container__text-center {
             text-align: center !important;
-            .h2 {
+            .contact__container__text-center__h2 {
                 font-size: 2.25rem;
                 line-height: 2rem;
                 display: inline-block !important;
                 color: #00cfd5 !important;
             }
         }
-        .divider{
+        .contact__container__divider{
             @include divider(#00cfd5, #FFFFFF);
             color: #00cfd5 !important;
         }
-        .row {
+        .contact__container__row {
             display: flex;
             flex-wrap: wrap;
             margin-right: -1.5rem;
             margin-left: -1.5rem;
             justify-content: center !important;
 
-            .col-lg-4{
+            .contact__container__row__col-lg-4{
                 position: relative;
                 width: 100%;
                 padding-right: 1.5rem;
                 padding-left: 1.5rem;
                 flex: 0 0 33.3333333333%;
                 max-width: 33.3333333333%;
-                .flex {
+                .contact__container__row__col-lg-4__flex {
                     display: flex !important;
                     flex-direction: column !important;
                     align-items: center !important;
-                    .text-muted {
+                    .contact__container__row__col-lg-4__flex__text-muted {
                         color: #6c757d !important;
                     }
-                    .lead {
+                    .contact__container__row__col-lg-4__flex__lead {
                         font-size: 1.25rem;
                         font-weight: 700 !important;
                     }
